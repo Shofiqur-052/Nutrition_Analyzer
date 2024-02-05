@@ -13,7 +13,10 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+<<<<<<< HEAD
 
+=======
+>>>>>>> fdf117bd7f5050e26cf67727416ea6d8d99bc619
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private ImageButton mButton, vButton, dButton, gButton, fButton, wButton;
