@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/statusId"
+        android:title="@string/status"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/clearId"
+        android:title="@string/clear"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/exitId"
+        android:title="@string/exit"
+        app:showAsAction="never"
+        />
+
+</menu>

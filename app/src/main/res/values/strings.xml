@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Nutrition Analyzer</string>
+    <string name="loading">Loading...</string>
+    <string name="meat">Meat</string>
+    <string name="vegetable">Vegetable</string>
+    <string name="dairy">Dairy</string>
+    <string name="grains">Grains</string>
+    <string name="fruits">Fruits</string>
+    <string name="water">Water</string>
+    <string name="fooditem">Food Item</string>
+    <string name="selectedItem">Selected Item : </string>
+    <string name="amount">Amount : </string>
+    <string name="hint">Enter amount</string>
+    <string name="submit">SUBMIT</string>
+    <string name="MainActivityTitle">Nutrition Analyzer</string>
+    <string name="option">** Choose an Option **</string>
+    <string name="summery"><u>SUMMERY</u>.</string>
+
+    <string name="status">Show Status</string>
+    <string name="clear">Clear All Data</string>
+    <string name="exit">Exit</string>
+
+    <string name="itemPrecaution">** Enter the amount you have taken</string>
+
+
+    <string-array name="meat_array">
+        <item>Red meat</item>
+        <item>Chicken</item>
+
+    </string-array>
+
+    <string-array name="vegetable_array">
+        <item>Greens</item>
+        <item>Potato</item>
+        <item>Tomato</item>
+        <item>Papaya</item>
+        <item>Lemon</item>
+
+    </string-array>
+
+
+    <string-array name="dairy_array">
+        <item>Egg</item>
+        <item>Milk</item>
+
+    </string-array>
+
+
+    <string-array name="grains_array">
+        <item>Rice</item>
+        <item>Bread</item>
+        <item>Cake</item>
+
+    </string-array>
+
+
+    <string-array name="fruits_array">
+        <item>Banana</item>
+        <item>Mango</item>
+        <item>Guava</item>
+        <item>Pine Apple</item>
+        <item>Watermelon</item>
+
+    </string-array>
+
+
+    <string-array name="water_array">
+        <item>Water</item>
+
+    </string-array>
+
+    <string-array name="main_item">
+        <item>Meat</item>
+        <item>Vegetable</item>
+        <item>Dairy</item>
+        <item>Grains</item>
+        <item>Fruits</item>
+        <item>Water</item>
+
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Summery_Actvity"
+    android:background="#BCFFC5"
+    android:orientation="vertical"
+    android:weightSum="8"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="1.8">
+
+        <TextView
+            android:id="@+id/vitaminId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/summery"
+            android:textSize="38dp"
+            android:textColor="#039A2A"
+            android:textStyle="bold|italic"
+
+            >
+        </TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7">
+
+        <TextView
+            android:id="@+id/calorieId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_vertical"
+            android:textColor="#2196F3"
+            android:text="Calories : "
+            android:layout_gravity="center_vertical"
+            android:textSize="24dp"
+
+            >
+        </TextView>
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7">
+
+        <TextView
+            android:id="@+id/carbohydrateId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_vertical"
+            android:textColor="#2196F3"
+            android:text="Carbohydrate : "
+            android:layout_gravity="center_vertical"
+            android:textSize="24dp"
+            >
+        </TextView>
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7">
+
+        <TextView
+            android:id="@+id/proteinId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_vertical"
+            android:textColor="#2196F3"
+            android:text="Protein : "
+            android:layout_gravity="center_vertical"
+            android:textSize="24dp"
+            >
+        </TextView>
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7">
+
+        <TextView
+            android:id="@+id/fatId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_vertical"
+            android:textColor="#2196F3"
+            android:text="Fat : "
+            android:layout_gravity="center_vertical"
+            android:textSize="24dp"
+            >
+        </TextView>
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7">
+
+        <TextView
+            android:id="@+id/waterId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_vertical"
+            android:textColor="#2196F3"
+            android:text="Water : "
+            android:layout_gravity="center_vertical"
+            android:textSize="24dp"
+            >
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="2.7"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/summery_border"
+            android:layout_width="300dp"
+            android:layout_height="67dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Condition : "
+                android:textColor="@color/black"
+                android:textSize="27sp"
+                >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/conditionId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"
+                android:textSize="28sp"
+                >
+
+            </TextView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#BCFFC5"
+    android:weightSum="8"
+    tools:context=".ItemActivity">
+
+    <TextView
+        android:id="@+id/titleID"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textColor="#039A2A"
+        android:text="Sample"
+        android:textSize="37sp"
+        android:gravity="center"
+        android:textStyle="bold|italic"
+        >
+    </TextView>
+
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:text="@string/selectedItem"
+            android:paddingLeft="20dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+
+            >
+        </TextView>
+
+        <Spinner
+            android:id="@+id/spinnerID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:backgroundTint="@color/black"
+            >
+        </Spinner>
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/amount"
+            android:textColor="@color/black"
+            android:paddingLeft="20dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+
+            >
+        </TextView>
+
+        <EditText
+            android:id="@+id/editTextID"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:textSize="23sp"
+            android:textColorHint="@color/black"
+            android:hint="@string/hint"
+            android:inputType="numberDecimal"
+            android:backgroundTint="@color/black"
+            android:textCursorDrawable="@null"
+            android:layout_marginLeft="20dp"
+
+            >
+        </EditText>
+
+        <TextView
+            android:id="@+id/unitId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginLeft="15dp"
+            android:text="gm"
+            android:textSize="23sp"
+
+            >
+        </TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/itemPrecaution"
+            android:textColor="#D54E19"
+            android:textSize="20sp"
+            android:gravity="center"
+            >
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonID"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:text="@string/submit"
+            android:textSize="23sp"
+            android:gravity="center"
+            android:backgroundTint="#4DDF72"
+            >
+        </Button>
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

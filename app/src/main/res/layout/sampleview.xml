@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:backgroundTintMode="screen"
+    android:background="#8EF4B4"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/sampletextID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/selectedItem"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:padding="8dp"
+        >
+    </TextView>
+
+</LinearLayout>
