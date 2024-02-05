@@ -13,8 +13,7 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-// ;jsfpjxd 
-// mehedi
+
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
